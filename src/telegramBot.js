@@ -2,7 +2,7 @@ import TelegramBot from 'node-telegram-bot-api';
 import {cache} from './cache/cache.js'
 import filter from './services/filterContent.js'
 
-const token = "1196435211:AAHJNfUtkH699PuOEf_N0sOJR6Wm9-QCKlA"
+const token = "6356894716:AAFKniX_OeErKo3gUfS0pryfbrIo6lkxDRg"
 const bot = new TelegramBot(token, {polling: true});
 
 bot.onText(/\/anime_rank (.+)/, async function (msg , match){
